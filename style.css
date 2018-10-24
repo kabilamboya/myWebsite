@@ -28,14 +28,15 @@ header
     font-family: "Roboto", sans-serif;
     font-size: 15px;
 }
-.main-nav li.active a
+/*.main-nav li.active a
 {
     border: 1px solid white;
-}
+}*/
+/*
 .main-nav li a:hover
 {
     border: 1px solid white;
-}
+}*/
 .logo img
 {
     width: 150px;
@@ -83,7 +84,7 @@ h1
 }
 .btn-one
 {
-    background-color: darkorange;
+   /* background-color: darkorange;*/
     font-family: "Roboto", sans-serif;
 }
 .btn-two
@@ -93,7 +94,13 @@ h1
 .btn-two:hover
 {
     background-color: darkorange;
-    transition: all 0.3s ease-in;
+    transition: all 0.1s ease-in;
+}
+
+.btn-one:hover
+{
+    background-color: darkorange;
+    transition: all 0.1s ease-in;
 }
 
 
